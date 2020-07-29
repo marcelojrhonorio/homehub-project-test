@@ -31,3 +31,8 @@ Tela de Adoção (wireframe3.jpg):
 - Bootstrap
 - HTML5
 - CSS3
+
+# Execução e funcionamento
+Basta simplesmente clonar este projeto e abrir o arquivo `index.html`. Optei por criar uma espécie de single page application, consumindo dados de uma API que desenvolvi. 
+
+
