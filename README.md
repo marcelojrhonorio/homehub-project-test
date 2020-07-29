@@ -1,4 +1,4 @@
-# Projeto: Dog Hub
+# Dog Hub
 Este projeto é parte do processo seletivo para o cargo temporário de Front End Developer. 
 
 # O projeto
@@ -25,3 +25,9 @@ Tela de Detalhes (wireframe2.jpg):
 Tela de Adoção (wireframe3.jpg):
   - Baseado nas raças adotadas na tela de detalhes, deverá mostrar a foto e a raça dos cães escolhidos.
   - Imagens estão disponíveis na pasta "images".
+
+# Tecnologias
+- Biblioteca jQuery
+- Bootstrap
+- HTML5
+- CSS3
