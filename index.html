@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>DogHub</title>
+</head>
+<body>
+
+  <!-- Hidden aux inputs -->
+  <input type="hidden" value="http://api.vendasmg.test" data-api-address>
+
+  <nav class="navbar">
+    <ul class="nav navbar-nav ml-auto" data-back-home>
+      <a class="back-to-home" href="index.html"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></a>
+    </ul>
+      <ul class="nav navbar-nav ml-auto">
+        <a class="img-fluid navbar-brand" href="index.html"><img class="logo" src="img/logo-min.png" alt="Logo"></a>
+      </ul>
+      <ul class="nav navbar-nav ml-auto" style="text-align: right; align-items: right;">
+        <img class="icon-shop" src="img/icon-shop.png" alt="">
+      </ul>
+  </nav>
+
+  <div class="container">
+    <div class="page-title">
+      <h3 data-page-title>Para adoção</h3>
+    </div>
+  </div>
+
+  <div class="container loading-results" data-loading-results>
+    <div class="spinner-border text-secondary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+
+  <div class="container" data-list-dogs> 
+    <!-- List dogs Here -->
+  </div>
+
+
+ 
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="js/adoption.js"></script>
+</body>
+</html>
